@@ -1,30 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next js React base repository using Standard eslint and prettier✨
 
-## Getting Started
+> Get started easily with this base project.
 
-First, run the development server:
+**Dependencies**
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- next
+- react
+- react-dom
+- styled-components
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**devDependencies**
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- babel-plugin-styled-components
+- eslint
+- eslint-config-prettier
+- eslint-config-standard
+- eslint-plugin-import
+- eslint-plugin-node
+- eslint-plugin-promise
+- eslint-plugin-react
+- eslint-plugin-standard
+- husky
+- lint-staged
+- prettier
 
-## Learn More
+## Contact me
 
-To learn more about Next.js, take a look at the following resources:
+Reach out to me at one of the following places!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Website at <a href="https://andrescampuzano.com" target="_blank">`andrescampuzano.com`</a>
+- Twitter at <a href="http://twitter.com/andrescampuzan0" target="_blank">`@AndresCampuzan0`</a>
+- <a href='mailto:hello@andrescampuzano.com'>Email</a>
