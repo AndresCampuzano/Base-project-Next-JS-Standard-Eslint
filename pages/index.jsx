@@ -1,7 +1,6 @@
 import Container from "../styles/HomeStyles"
 
 const index = () => {
-  const a = "test"
   return (
     <Container>
       <h1>This is the home page.</h1>
