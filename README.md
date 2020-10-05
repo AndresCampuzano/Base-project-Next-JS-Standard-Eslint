@@ -11,6 +11,8 @@
 
 **devDependencies**
 
+- @commitlint/cli
+- @commitlint/config-conventional
 - babel-plugin-styled-components
 - eslint
 - eslint-config-prettier
