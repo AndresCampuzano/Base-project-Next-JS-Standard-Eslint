@@ -7,16 +7,16 @@ const GlobalStyles = createGlobalStyle`
     body {
         margin: 0;
         padding: 0;
+        background-color: ${({ theme }) => theme.whiteColor};
         font-family: 'Roboto', sans-serif;
         font-size: 16px;
-        color: ${({ theme }) => theme.blackColor};
-        ${"" /* overflow-x: hidden; */}
         text-align: center;
-        background-color: ${({ theme }) => theme.whiteColor};
+        ${"" /* overflow-x: hidden; */}
+        color: ${({ theme }) => theme.blackColor};
     }
     a {
-        color: ${({ theme }) => theme.primaryColor};
         text-decoration: none;
+        color: ${({ theme }) => theme.primaryColor};
     }
 `
 
