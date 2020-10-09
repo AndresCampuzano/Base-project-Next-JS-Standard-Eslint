@@ -25,6 +25,11 @@
 - husky
 - lint-staged
 - prettier
+- stylelint
+- stylelint-config-recommended
+- stylelint-config-styled-components
+- stylelint-order
+- stylelint-processor-styled-components
 
 ## Contact me
 
