@@ -7,8 +7,8 @@
     "stylelint-config-styled-components"
   ],
   "plugins": [
-        "stylelint-order"
-    ],
+		"stylelint-order"
+	],
   "rules": {
     "order/properties-order": [
       "content",
@@ -87,6 +87,7 @@
       "background-clip",
       "background-attachment",
       "object-fit",
+      "list-style",
       "cursor",
       "user-select",
       "font-family",
@@ -99,6 +100,7 @@
       "text-decoration",
       "word-spacing",
       "letter-spacing",
+      "white-space",
       "color",
       "animation",
       "animation-name",
@@ -110,6 +112,6 @@
       "animation-fill-mode",
       "animation-play-state",
       "transition"
-        ]
+		]
   }
 }

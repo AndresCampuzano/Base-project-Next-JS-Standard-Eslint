@@ -1,9 +1,7 @@
-// import App from 'next/app';
 import React from "react"
 import GlobalStyles from "../styles/GlobalStyles"
 import { ThemeProvider } from "styled-components"
 import Variables from "../styles/Variables"
-// import '../styles/Font.css';
 import Head from "next/head"
 
 function MyApp({ Component, pageProps }) {

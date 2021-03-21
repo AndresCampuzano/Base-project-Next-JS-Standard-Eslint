@@ -12,15 +12,15 @@
     "prettier": "prettier . --write"
   },
   "dependencies": {
-    "next": "9.5.3",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "styled-components": "^5.2.0"
+    "next": "10.0.9",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "styled-components": "^5.2.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
-    "babel-plugin-styled-components": "^1.11.1",
+    "babel-plugin-styled-components": "^1.12.0",
     "eslint": "^7.9.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-config-standard": "^14.1.1",
@@ -29,11 +29,11 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.20.6",
     "eslint-plugin-standard": "^4.0.1",
-    "husky": "^4.3.0",
+    "husky": "^4.3.8",
     "lint-staged": "^10.3.0",
-    "prettier": "^2.1.1",
-    "stylelint": "^13.7.2",
-    "stylelint-config-recommended": "^3.0.0",
+    "prettier": "^2.2.1",
+    "stylelint": "^13.12.0",
+    "stylelint-config-recommended": "^4.0.0",
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-order": "^4.1.0",
     "stylelint-processor-styled-components": "^1.10.0"
