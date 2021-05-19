@@ -14,11 +14,6 @@
     "prettier": "prettier . --write",
     "fix": "npm run prettier && npm run stylelint && npm run lint"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "“echo \"[Husky] pre-commit\""
-    }
-  },
   "dependencies": {
     "next": "10.2.0",
     "prop-types": "^15.7.2",
