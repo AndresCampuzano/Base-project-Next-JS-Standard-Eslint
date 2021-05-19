@@ -1,10 +1,9 @@
-const Variables = {
+export const Variables = {
   // Colors
-  blackColor: "#0F141E",
-  lightGrayColor: "#4d525c",
-  whiteColor: "#FFFFFF",
-  primaryColor: "#0099ff",
-  secondaryColor: "#1c5480",
+  colorBackground: "#181818",
+  colorWhite: "#FFFFFF",
+  colorScrollBarIdle: "#929292",
+  colorScrollBarHover: "#797979",
   // Breakpoints using min-width (mobile-first)
   minMobile: "576px",
   minTablet: "768px",
@@ -17,5 +16,3 @@ const Variables = {
   maxWidth: "1920px",
   padding: "0 5%",
 }
-
-export default Variables

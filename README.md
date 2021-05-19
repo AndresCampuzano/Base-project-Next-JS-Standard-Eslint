@@ -5,6 +5,7 @@
 **Dependencies**
 
 - next
+- prop-types
 - react
 - react-dom
 - styled-components
@@ -21,7 +22,6 @@
 - eslint-plugin-node
 - eslint-plugin-promise
 - eslint-plugin-react
-- eslint-plugin-standard
 - husky
 - lint-staged
 - prettier
@@ -33,7 +33,7 @@
 
 ## Contact me
 
-Reach out to me at one of the following places!
+Reach out to me!
 
 - Website at <a href="https://andrescampuzano.com" target="_blank">`andrescampuzano.com`</a>
 - Twitter at <a href="http://twitter.com/andrescampuzan0" target="_blank">`@AndresCampuzan0`</a>

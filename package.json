@@ -6,34 +6,37 @@
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
+    "dev:network": "next dev -H 192.168.0.5",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint . --fix --ext .js,.jsx && stylelint ./components/**/*.js  ./styles/*.js",
-    "prettier": "prettier . --write"
+    "stylelint": "stylelint ./components/**/*.js  ./styles/**/*.js",
+    "lint": "eslint . --fix --ext .js,.jsx ",
+    "prettier": "prettier . --write",
+    "fix": "npm run prettier && npm run stylelint && npm run lint"
   },
   "dependencies": {
-    "next": "10.0.9",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
-    "styled-components": "^5.2.1"
+    "next": "10.2.0",
+    "prop-types": "^15.7.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "styled-components": "^5.3.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^11.0.0",
-    "@commitlint/config-conventional": "^11.0.0",
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
     "babel-plugin-styled-components": "^1.12.0",
-    "eslint": "^7.9.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-config-standard": "^14.1.1",
-    "eslint-plugin-import": "^2.22.0",
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.23.2",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.20.6",
-    "eslint-plugin-standard": "^4.0.1",
-    "husky": "^4.3.8",
-    "lint-staged": "^10.3.0",
-    "prettier": "^2.2.1",
-    "stylelint": "^13.12.0",
-    "stylelint-config-recommended": "^4.0.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-react": "^7.23.2",
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-recommended": "^5.0.0",
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-order": "^4.1.0",
     "stylelint-processor-styled-components": "^1.10.0"
@@ -41,7 +44,7 @@
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "npm run lint && npm run prettier"
+      "pre-commit": "npm run fix"
     }
   }
 }

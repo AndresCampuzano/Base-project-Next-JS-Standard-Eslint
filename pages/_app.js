@@ -1,7 +1,5 @@
-import React from "react"
+import PropTypes from "prop-types"
 import GlobalStyles from "../styles/GlobalStyles"
-import { ThemeProvider } from "styled-components"
-import Variables from "../styles/Variables"
 import Head from "next/head"
 
 function MyApp({ Component, pageProps }) {
@@ -154,10 +152,10 @@ function MyApp({ Component, pageProps }) {
         />
         <link rel="manifest" href="/manifest.json" />
       </Head>
-      <ThemeProvider theme={Variables}>
+      <>
         <GlobalStyles />
         <Component {...pageProps} />
-      </ThemeProvider>
+      </>
     </>
   )
 }
@@ -175,3 +173,8 @@ function MyApp({ Component, pageProps }) {
 // }
 
 export default MyApp
+
+MyApp.propTypes = {
+  Component: PropTypes.func,
+  pageProps: PropTypes.object,
+}
