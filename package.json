@@ -16,7 +16,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "prettier . --write && stylelint ./components/**/*.js  ./styles/**/*.js && eslint . --fix --ext .js,.jsx && git add -A ."
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "npm run fix && git add -A ."
     }
   },
   "dependencies": {
