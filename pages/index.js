@@ -1,4 +1,4 @@
-import { Intro } from "../componentss/Intro"
+import { Intro } from "../components/Intro"
 
 export default function index() {
   return (
