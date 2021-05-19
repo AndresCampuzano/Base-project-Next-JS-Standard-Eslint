@@ -10,13 +10,13 @@
     "build": "next build",
     "start": "next start",
     "stylelint": "stylelint ./components/**/*.js  ./styles/**/*.js",
-    "lint": "eslint . --fix --ext .js,.jsx ",
+    "lint": "eslint . --fix --ext .js,.jsx",
     "prettier": "prettier . --write",
     "fix": "npm run prettier && npm run stylelint && npm run lint"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run fix"
+      "pre-commit": "prettier . --write && stylelint ./components/**/*.js  ./styles/**/*.js && eslint . --fix --ext .js,.jsx && git add -A ."
     }
   },
   "dependencies": {
