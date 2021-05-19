@@ -5,6 +5,7 @@
   "author": "Andres Campuzano <hello@andrescampuzano.com>",
   "license": "MIT",
   "scripts": {
+    "prepare": "husky install",
     "dev": "next dev",
     "dev:network": "next dev -H 192.168.0.5",
     "build": "next build",
